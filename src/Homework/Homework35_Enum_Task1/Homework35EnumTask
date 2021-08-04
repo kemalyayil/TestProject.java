@@ -1,0 +1,11 @@
+
+create an enum of months (short names like Jan, Feb..)
+use it inside a switch statement,
+only check 3 months, add default case for others
+
+part2: get the current month from the user input
+convert the user input into enum
+
+Task1 Homework - Enums | Part2
+add a field called full name to Months enum
+use it in demo

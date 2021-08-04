@@ -1,0 +1,21 @@
+1-  What is OOP?
+    concept that we write codes around objects, we can store data and methods and re-usable codes.
+    there are 4 concepts ; inheritance, encapsulation, polymorphism and abstraction
+    a framework for using variable and methods.
+
+2- Static methods can not be overridden, but can be hidden.
+
+3-  Compile time Polymorphism = Method Overloading
+    Runtime Polymorphism = Method Overriding
+
+4- Abstraction dendiginde Tv kumandasi ornek verilebilir. ses artirirken veya azaltirken nasil isler bilemiyorz. biz
+sadece ne oldgunu biliyoruz nasil oldugunu deil .
+
+5- What is static keyword?
+   • static keyword can be used with class level variables to make it global i.e all the objects will share the same variable.
+   • static keyword can be used with methods also. A static method can access only static variables of class and invoke only
+   static methods of the class
+
+
+6 - hoca array ve arraylist arasindaki fark cok onemli dedi.
+7 - question 49 da cok onemli dedi "Java Collection Framework"

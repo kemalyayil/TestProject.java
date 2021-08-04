@@ -1,0 +1,13 @@
+TASK1
+create a class called Circle
+have one instance variable called radius(YARICAP)
+and two methods to calculate area and circumference (area = alan, circumference = cevre)
+note : pi = 3.14
+
+Part 2
+-calculate how many times we call area method
+-calculate how many times we call circumference method
+
+Part 3
+-create a method to calculate how many times any
+method of Circle class called

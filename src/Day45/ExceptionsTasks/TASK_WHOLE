@@ -1,0 +1,42 @@
+Homework-1 | Exceptions
+---------------------------------------------------------
+create an enum CarCondition (NEW, MEDIUM, OLD, WASTE)
+---------------------------------------------------------
+Create a class called Car:
+
+create method 'buy' with enum parameter as conditions of car,
+and throws checked/expected exception if its too old or waste
+
+create method 'drive' with String parameter as weather,
+and throws unchecked/runtime exception if weather is not equal to "normal"
+----------------------------------------------------------
+create demo application that helps you to buy a car & drive it:
+----------------------------------------------------------
+
+Homework-2 | Exceptions
+create a static method that accepts string as parameter
+try to get first letter of the string and return it
+handle all possible exceptions
+================================================================
+
+Homework-3 | Exceptions
+public static void main(String[] args) {
+        // 1) where does exception occur
+        // 2) catch and handle specific exception
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(0,1);
+        arrayList.add(1,2);
+        arrayList.add(2,3);
+        arrayList.add(3,null);
+        arrayList.get(4);
+        Collections.max(arrayList);
+        arrayList.add(1,2);
+        arrayList.add(2,3);
+        arrayList.add(0,null);
+        System.out.println(arrayList);
+    }
+==========================================================
+
+Homework-4 | Exceptions
+Create a custom "Checked Exception"
+Create a method which throws your custom exception

@@ -1,0 +1,4 @@
+
+Create a class called Circle, with one attribute called radius
+Create a noArg constructor that initializes the radius with default value of 10.
+Create a parametrized constructor that initializes the radius

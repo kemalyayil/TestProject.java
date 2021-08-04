@@ -1,0 +1,24 @@
+1- What is class ?
+where we store our methods and structures, to store all the code,template to create an object
+
+2- What's an object?
+instance of a class,what we create from a class
+
+Q3 - What's instance variables?
+outside the method, features that can be change for each object
+
+Q4 - What's STATIC?
+features that belong to class,When we want variable independent from object,it could be updated but we cannot copy them
+
+Q5- What are the features of Static methods?
+Directly call other static methods,we don't have to create a class to call them,
+we can call static methods inside non static methods but not opposite
+
+Q6 - What's a constructor?
+builder of object,using classname,Special method to initialize fields for objects
+
+Q7 - Differences between method and constructor?
+Method can have any name const need same name with class.
+Methods must have return type  constructors not
+
+

@@ -1,0 +1,7 @@
+Create a human class (Parent)
+        -String name, double age (attributes)
+        -eat() , transport()
+
+
+-Baby class - Grown class (Childs)
+- Override methods for child classes

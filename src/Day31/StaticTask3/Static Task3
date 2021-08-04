@@ -1,0 +1,7 @@
+Part 1
+create a class called BankAccount
+with fields: customerName, customerBalance -> should not be static
+with methods: deposit and withdraw -> should not be static
+
+Part 2
+how much money does the bank has?

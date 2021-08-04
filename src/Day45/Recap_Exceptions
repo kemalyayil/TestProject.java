@@ -1,0 +1,11 @@
+
+error       we can't handle
+checked     is on the compiler  (red underlined before running)
+unchecked   is run time error   (we are not aware of the error before running)
+
+we can create a custom exception , the only thing that we need to is to EXTEND it RUNTIMEEXCEPTION or EXCEPTION as parent/child.
+to create a checked exception in methods we use "Throws" key word.
+
+try
+catch
+finally   ==> bu oldugunda finally olani illa ki run edecek, catch olsa da olmasa da .

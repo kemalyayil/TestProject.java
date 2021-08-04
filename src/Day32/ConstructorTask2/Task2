@@ -1,0 +1,5 @@
+TASK
+
+Create a class called Square, with one attribute called side
+Create a no-args constructor which inits the side 55
+Create a parameterized constructor that inits the side with a parameter

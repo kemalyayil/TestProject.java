@@ -1,0 +1,14 @@
+Create a package "TaskPackage"
+
+1-Create a class called Cat with
+    2 properties and 1 method that prints something
+2-Create 2 objects of this class,
+    set their properties and call their methods
+
+PART 2
+Create a list of Cats and put your two objects inside that list
+Use enhanced for loop to calculate sum of their age
+
+PART 3
+Create a static method in Main class to print cat properties
+hint: public static void print(Cat cat) {

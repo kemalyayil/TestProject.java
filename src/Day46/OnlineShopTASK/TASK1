@@ -1,0 +1,8 @@
+Create an OnlineShop:
+    Item: name, price // Item Class which has name and price attributes
+    Customer: name, address, cart(list of items), customerType
+    Customer -> getCartTotal() -> should calculate cart total depending on customerType
+    CustomerType:
+        NormalCustomer
+        PremiumCustomer(-10% discount on total sum of cart)
+        SpecialCustomer(-50% discount on total sum of cart)

@@ -1,0 +1,134 @@
+1-  What is JVM (Java virtual machine)? What does it do?
+    JVM is a software help us to compile the code, it translate our byte code into machine specific code(computer).
+
+    It is a heart of Java programming because it is responsible for converting Byte Code into Machine specific code.
+
+2-  What is JRE ( Java Run Time Environment) ?
+    It is a package of everything necessary to run a compiled Java program, including the Java Virtual Machine (JVM),
+    the Java Class Library, the java command, and other infrastructure
+
+3-  What is JDK?
+    It has everything the JRE has, but also the compiler (javac), debugger and other tools. (Development Tools)
+
+4-  What is Main Method?
+    Method that we can run our code, it is the entry point to our program.
+
+5-  What are Wrapper Classes in Java?
+    The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.
+
+    Why we need Wrapper Classes?
+    -To convert primitive type to reference type
+    -To convert strings into data types (known as parsing operations), here methods of type parseXXX() are used.
+    -Data structures in the Collection framework such as ArrayList and HashMap store only the objects (reference types)
+     and not the primitive types.
+
+6-  What are constructors in Java?
+    Where we initialize fields belongs to objects,
+    -Constructor is a block of code that initializes the newly created object.
+    -A constructor resembles an instance method in java but it’s not a method as it doesn’t have a return type.
+    -Constructor has same name as the class
+
+    Halit's Answer = I use constructors to initialize the object, and also they are just like method . And they must
+    have the same name with the class.
+
+            They might ask you this question as well...
+    * What is the difference between method and constructor?
+
+            Java Constructor  VS  Java Method
+        1- A constructor is used to initialize the state of an object.
+        1- A method is used to expose the behavior of an object.
+
+        2- A constructor must not have a return type.
+        2- A method must have a return type.
+
+        3- The Java compiler provides a default constructor if you don't have any constructor in a class.
+        3- The method is not provided by the compiler in any case.
+
+        4- The constructor name must be same as the class name.
+        4- The method name may or may not be same as the class name.
+
+7-  Can we have multiple constructors, if yes how?
+   ( Yes, by overloading using with different parameter(s).)
+    Yes, we can have multiple constructors in the class.
+    By having different the arguments list
+
+8-  Can we re-use constructor ? if yes , how?
+    (yes, we can. by using "this" key word.)
+    By calling other constructor using this() keyword. By providing appropriate argument list we can choose
+    which constructor we call.
+
+9-  What is the difference between break and continue statements?
+    (Break stops the code but continue skips that code.,break will stop the program, continue will skip the current
+    condition)
+
+    Break statement mainly used to terminate the enclosing loop.
+    Continue statement mainly used to skip to the next iteration of the loop.
+
+
+10- Difference between static and non-static methods in Java?
+    (Static belongs to class non static belongs to object,
+    non static ---> only access thru object)
+
+    A static method can be accessed before any objects of its class are created, and without reference to any object.
+    Non-static methods need reference to an object in order to be called
+
+11- What is Collection Framework in Java? Explain the Collection Framework?
+    This question has couple questions, such as;
+        What is List? What kind of Lists do you know?
+        What is Set? What kind of Sets do you know?
+        Differences between List and Set?
+
+        list is arraylist, it contains  many values of  the same type of data
+        in set we dont have duplicated values, in list yes.
+        Set: no duplicate , and unordered
+        ArrayList is resizable
+
+
+    Collection framework has interface and classes.we can use these data structures in our code(mainly in list and set).
+
+12- What is the difference between local variable and instance variable ?
+
+    Variables defined inside methods, constructors or blocks are called local variables.
+    The variable will be declared and initialized within the method and it will be destroyed when the method has completed.
+
+    Instance variables are variables within a class but outside any method.
+    These variables are instantiated when the object is created. They belong to the class instance(object)
+    and destroyed when the object is destroyed.
+
+13- What is the difference between static and instance variable?
+    static variables, they belong to the class itself. And instantiated when the class is first accessed
+
+14- What is Final keyword in Java?
+    (final keyword allow us finalize the value of variable,final value that we cant change)
+    FOR CLASSES: cannot be inherited by other classes
+    FOR METHODS: cannot be overridden
+    FOR ATTRIBUTES and VARIABLES: cannot be modified
+
+15- What are the differences between an array and an array list?
+    Array: fixed, Arraylist: dynamic
+    for array we use length for Arraylist size
+    Arraylist uses reference,
+    ArrayList is in collection framework, array is not
+
+16- Explain the difference Public and Private access Modifiers?
+    private can only access in the same class,public can be accessed in every class,Public modifiers
+    can be reached anywhere but private only inside its class
+
+17- Which members of class can have access modifiers?
+    (Methods and objects, Constructor, Enum)
+    instance variables
+    Constructors
+    Methods
+    Nested class, enums and interfaces
+
+18- What is the difference between equals() and == in Java?
+    ==          compare with reference
+    equals()    compare values
+
+    equals()    is a method
+    ==          is an operator
+
+    ==          checks if both objects point to the same memory location whereas .
+    equals()    evaluates to the comparison of values in the objects
+
+
